@@ -98,7 +98,7 @@ git revert id_de_confirmación
 git reset --hard id_de_confirmación
 ```
 # Importante : 
-Verificar los commits recientes:
+Eliminar commits recientes en masa:
 ```bash
 git log
 
