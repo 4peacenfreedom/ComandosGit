@@ -1,0 +1,38 @@
+Repositorio Tercero 
+Clonar el repositorio de origen:
+
+1-Añadir tu repositorio de GitHub como remoto adicional:
+git clone https://github.com/rcaram22/Clase-5-Inyeccion-de-Dependencias.git
+cd Clase-5-Inyeccion-de-Dependencias
+
+2-Añadir tu repositorio de GitHub como remoto adicional:
+Mi Repositorio Origin Vacío 
+git remote add destination https://github.com/Marcelo89890/Clonar.git
+
+3-Ver las ramas disponibles 
+git branch -a
+
+4-Enviar los cambios al repositorio Destino 
+git push destination master 
+
+5-Abrir En Visual Studio Code : 
+Primero, asegúrate de que tu repositorio local esté configurado correctamente para usar tu propio repositorio en GitHub. Esto se hace cambiando el remoto origin para que apunte a tu repositorio.
+
+Esto te mostrará los remotos actuales y sus URLs:
+
+
+git remote -v 
+
+
+6-Cambiar el remoto origin para apuntar a tu repositorio:
+Veremos El repositorio Tercero Como Origen y El nuestro en Destino 
+
+Tenemos que cambiar el nuestro de Destino a Origen 
+git remote set-url origin https://github.com/Marcelo89890/Clonar.git
+
+
+solo para garantizar que sea la ultima version : git pull 
+Listo . ..
+
+Para poder a hacer cambios git status, git add . , git commit -m "" , git push 
+O crear ramas . Ver documento 1
