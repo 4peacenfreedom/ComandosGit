@@ -17,79 +17,105 @@ git config --global user.email "tuemail@example.com"
 ```
 ## Comandos Básicos
 # Crear un nuevo repositorio
+```bash
 git init
+```
 
 # Clonar un repositorio existente
+```bash
 git clone https://github.com/usuario/repositorio.git
-
+```
 # Ver el estado del repositorio
+```bash
 git status
-
+```
 # Agregar archivos al área de preparación
+```bash
 git add nombre_del_archivo
 git add .
-
+```
 # Confirmar cambios en el repositorio
+```bash
 git commit -m "Mensaje de confirmación"
-
+```
 ## Trabajando con Ramas
 # Listar ramas existentes
+```bash
 git branch
-
+```
 # Crear una nueva rama
+```bash
 git branch nombre_de_la_rama
-
+```
 # Cambiar a una rama específica
+```bash
 git checkout nombre_de_la_rama
-
+```
 # Crear y cambiar a una nueva rama
+```bash
 git checkout -b nombre_de_la_rama
-
+```
 # Fusionar una rama con la rama actual
+```bash
 git merge nombre_de_la_rama
-
+```
 ## Remotos
 # Ver los repositorios remotos
+```bash
 git remote -v
-
+```
 # Agregar un repositorio remoto
+```bash
 git remote add origin https://github.com/usuario/repositorio.git
-
+```
 # Obtener cambios del repositorio remoto
+```bash
 git pull origin main
+```
 ## Deshacer Cambios
 
 
 # Enviar cambios al repositorio remoto
+```bash
 git push origin main
-
+```
 ## Deshacer Cambios
 
 # Deshacer cambios en el área de trabajo
+```bash
 git checkout -- nombre_del_archivo
-
+```
 # Restablecer el área de preparación
+```bash
 git reset nombre_del_archivo
-
+```
 # Deshacer una confirmación específica
+```bash
 git revert id_de_confirmación
-
+```
 # Restablecer el repositorio a un estado anterior
+```bash
 git reset --hard id_de_confirmación
-
+```
 ## Otros Comandos Útiles
 # Mostrar diferencias entre archivos
+```bash
 git diff
-
+```
 # Guardar cambios temporalmente
+```bash
 git stash
-
+```
 # Aplicar cambios guardados temporalmente
+```bash
 git stash pop
-
+```
 # Ver registros de stashes
+```bash
 git stash list
-
+```
 
 # Ver el historial de confirmaciones
+```bash
 git log
+```
