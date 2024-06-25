@@ -97,6 +97,21 @@ git revert id_de_confirmación
 ```bash
 git reset --hard id_de_confirmación
 ```
+# Importante : 
+Verificar los commits recientes:
+```bash
+git log
+
+git reset --hard HEAD~Camtodad de commit a eliminar
+Por ejemplo, para eliminar los últimos 3 commits, usarías:
+
+
+git reset --hard HEAD~3
+git push origin nombre-de-la-rama --force
+
+```
+
+
 ## Otros Comandos Útiles
 # Mostrar diferencias entre archivos
 ```bash
